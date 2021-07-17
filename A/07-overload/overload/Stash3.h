@@ -5,7 +5,6 @@ class Stash{
     int size;
     int quantity;
     int next;
-
     unsigned char* storage;
     void inflate(int increase);
 public:
